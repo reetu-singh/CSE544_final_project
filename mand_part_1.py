@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv("9.csv")
+data = pd.read_csv("data/9.csv")
 columns = data.columns
 
 
