@@ -4,6 +4,8 @@ import numpy as np
 data = pd.read_csv("data/9.csv")
 columns = data.columns
 
+print(data.describe())
+
 
 def check_null_values(input):
     ans = input.isnull().values.any()
