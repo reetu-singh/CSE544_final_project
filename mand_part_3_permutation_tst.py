@@ -16,7 +16,7 @@ def get_data_oct_dec(input):
     cases_ky = ky_confirmed.loc[(ky_confirmed['Date'] >= '2020-10-01') & (ky_confirmed['Date'] <= '2020-12-31')].iloc[:,
                2]
     deaths_ky = ky_deaths.loc[(ky_deaths['Date'] >= '2020-10-01') & (ky_deaths['Date'] <= '2020-12-31')].iloc[:, 2]
-    print(cases_ks)
+    # print(cases_ks)
     return cases_ks, deaths_ks, cases_ky, deaths_ky
 
 
